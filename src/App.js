@@ -1,7 +1,7 @@
 import React from 'react'
 import './css/App.css'
-import {BrowserRouter as Router, Route, Routes, BrowserRouter} from 'react-router-dom'
-import Homescreen from './pages/Homescreen'
+import { Routes, Route} from 'react-router-dom'
+import home from './pages/home'
 
 
 export default function App() {
@@ -9,28 +9,14 @@ export default function App() {
   return (
     <div>
 
-      <BrowserRouter>
-        <Routes>
-          { <Route index element={Homescreen} /> }
-          { <Route path='/Homescreen' element={<Homescreen />} /> }
-        </Routes>
-      </BrowserRouter>
-
-
-
       <h1> Hi Welcome to Flash</h1>
       <h1> Create Community and Run it!</h1>
 
+      <Routes>
+        <Route path="/" element={<home />} />
+        <Route path="/profile" element={<profile />} />
+      </Routes>
 
-      <a href='/Homescreen' className='container'> 
-      <BrowserRouter>
-        <Routes>
-          {/* { <Route index element={Homescreen} /> } */}
-          { <Route path='/Homescreen' element={<Homescreen />} /> }
-        </Routes>
-      </BrowserRouter>
-
-      Sign</a>
       
       <a href='/' className='container'>Login </a>
     </div>
