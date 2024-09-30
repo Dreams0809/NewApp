@@ -1,6 +1,8 @@
 import Header from '../Components/Header'
 
-export default function home(){
+
+
+export default function Home(){
     return(
         <div> 
             <Header />
