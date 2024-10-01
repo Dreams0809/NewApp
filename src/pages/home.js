@@ -1,5 +1,6 @@
 import Header from '../Components/Header'
 import Footer from '../Components/Footer'
+import { Link } from 'react-router-dom'
 
 
 
@@ -12,6 +13,7 @@ export default function Home(){
             <h1> Search For Communtiy</h1>
 
             <h1> Flash Community Feed</h1>
+
 
             <Footer />
         </div>
