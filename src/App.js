@@ -4,7 +4,8 @@ import './css/App.css'
 import Home from './pages/Home'
 // import Create from './pages/Create'
 // import Profile from './pages/Profile'
-import {Routes, Route, Link} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
+import Signin from './Components/Signin'
 
 
 
@@ -17,13 +18,12 @@ export default function App() {
       
       
          <Routes>
-              Home component is displayed when the /home path is visited * 
-              <Route path="./pages/home" Component={<Home />}/>
-          </Routes>
+              {/* Home component is displayed when the /home path is visited *  */}
+              <Route path="/home" element={<Home />}/>
 
-        <Link>
-          <button> </button>
-        </Link>
+              {/* Add more routes here */}
+              <Route path='/login' element={<Signin />}/>
+          </Routes>
       
 
     </div>

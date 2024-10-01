@@ -10,11 +10,13 @@ export default function Home(){
             <Header />
             <h1> Home screen </h1>
 
-            <h1> Search For Communtiy</h1>
+            <h2> Search For Communtiy</h2>
 
-            <h1> Flash Community Feed</h1>
+            <h3> Flash Community Feed</h3>
 
-
+            <Link to="/login" style={{textDecoration: 'none'}}>
+                <button>To login page</button>
+            </Link>
             <Footer />
         </div>
 
