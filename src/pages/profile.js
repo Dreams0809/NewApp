@@ -2,7 +2,7 @@
 
 export default function Profile(){
     return(
-        <h1> Hey</h1>
+        <h1>This is Profile page.</h1>
     )
 }
 

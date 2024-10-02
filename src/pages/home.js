@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom'
 export default function Home(){
     return(
         <div> 
-            <Header />
             <h1> Home screen </h1>
 
             <h2> Search For Communtiy</h2>
@@ -17,7 +16,6 @@ export default function Home(){
             <Link to="/login" style={{textDecoration: 'none'}}>
                 <button>To login page</button>
             </Link>
-            <Footer />
         </div>
 
        
