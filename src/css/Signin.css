@@ -1,0 +1,62 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    padding: 30px;
+    background: linear-gradient(135deg, #42a5f5, #478ed1); /* Gradient background */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Box shadow for visibility */
+    margin: 100px auto; /* Center the box horizontally */
+  }
+  
+  /* Style for form elements */
+  h2, h3, input, button, select, i {
+    color: white; /* White text for better contrast */
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  /* Style for the input fields */
+  input, select {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent input background */
+    color: white;
+  }
+  
+  /* Style for the signup button */
+  button {
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent button background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: rgba(255, 255, 255, 0.4); /* Hover effect for the button */
+  }
+  
+  /* Style for the eye icon to toggle password visibility */
+  i {
+    cursor: pointer;
+    margin-top: -30px;
+    position: relative;
+    left: 250px;
+    color: white;
+  }
+  
+  /* Center the container vertically */
+  body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+  }
