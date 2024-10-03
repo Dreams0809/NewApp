@@ -27,8 +27,8 @@ export default function App() {
             <Route path='/Signin' element={<Signin />}/>
         </Routes>
 
-          <Link to="/Signin" style={{textDecoration: 'none'}}>
-            <button>To login page</button>
+          <Link to="/Signin" >
+            <button>To Signin page</button>
           </Link>
       
 

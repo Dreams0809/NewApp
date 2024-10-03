@@ -14,9 +14,9 @@ export default function Home(){
 
             <h3> Flash Community Feed</h3>
 
-            <Link to="/login" style={{textDecoration: 'none'}}>
+            {/* <Link to="/login" style={{textDecoration: 'none'}}>
                 <button>To login page</button>
-            </Link>
+            </Link> */}
             <Footer />
         </div>
 
